@@ -177,8 +177,87 @@
                             <option value="أرمل">أرمل</option>
                             <option value="مطلق">مطلق</option>
                         </select>
-                    </div>
-                    <div id="spouse_children_section" class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6 hidden">
+                        <div>
+                            <label for="bank_name" class="block text-sm font-medium text-stone-700 mb-1">البنك المستلم للراتب:</label>
+                            <select id="bank_name" name="bank_name" class="form-select mt-1 block w-full p-2 border rounded-md shadow-sm focus:outline-none focus:ring-teal-500 focus:border-teal-500">
+                                <option value="">اختر البنك</option>
+                                <optgroup label="البنوك الحكومية">
+                                    <option value="مصرف الرافدين">مصرف الرافدين</option>
+                                    <option value="مصرف الرشيد">مصرف الرشيد</option>
+                                    <option value="المصرف العراقي للتجارة">المصرف العراقي للتجارة</option>
+                                    <option value="المصرف الزراعي التعاوني">المصرف الزراعي التعاوني</option>
+                                    <option value="المصرف الصناعي">المصرف الصناعي</option>
+                                    <option value="المصرف العقاري">المصرف العقاري</option>
+                                </optgroup>
+                                <optgroup label="البنوك التجارية الخاصة">
+                                    <option value="مصرف بغداد">مصرف بغداد</option>
+                                    <option value="المصرف التجاري العراقي">المصرف التجاري العراقي</option>
+                                    <option value="مصرف الائتمان العراقي">مصرف الائتمان العراقي</option>
+                                    <option value="مصرف الاستثمار العراقي">مصرف الاستثمار العراقي</option>
+                                    <option value="المصرف المتحد للاستثمار">المصرف المتحد للاستثمار</option>
+                                    <option value="البنك الوطني العراقي">البنك الوطني العراقي</option>
+                                    <option value="مصرف بابل">مصرف بابل</option>
+                                    <option value="مصرف الخليج التجاري">مصرف الخليج التجاري</option>
+                                    <option value="مصرف الموصل للتنمية والاستثمار">مصرف الموصل للتنمية والاستثمار</option>
+                                    <option value="مصرف الشمال">مصرف الشمال</option>
+                                    <option value="مصرف كوردستان الدولي">مصرف كوردستان الدولي</option>
+                                    <option value="مصرف آشور الدولي">مصرف آشور الدولي</option>
+                                    <option value="مصرف المنصور">مصرف المنصور</option>
+                                    <option value="مصرف الاقتصاد للاستثمار">مصرف الاقتصاد للاستثمار</option>
+                                    <option value="مصرف سومر التجاري">مصرف سومر التجاري</option>
+                                    <option value="مصرف دار السلام للاستثمار">مصرف دار السلام للاستثمار</option>
+                                    <option value="مصرف الهدى">مصرف الهدى</option>
+                                    <option value="المصرف الأهلي العراقي">المصرف الأهلي العراقي</option>
+                                    <option value="مصرف الاتحاد العراقي">مصرف الاتحاد العراقي</option>
+                                    <option value="مصرف الشرق الأوسط العراقي للاستثمار">مصرف الشرق الأوسط العراقي للاستثمار</option>
+                                    <option value="المصرف الدولي للتنمية والاستثمار">المصرف الدولي للتنمية والاستثمار</option>
+                                    <option value="مصرف عبر العراق">مصرف عبر العراق</option>
+                                    <option value="مصرف أربيل للاستثمار والتمويل">مصرف أربيل للاستثمار والتمويل</option>
+                                    <option value="مصرف أمين العراق للاستثمار والتمويل">مصرف أمين العراق للاستثمار والتمويل</option>
+                                </optgroup>
+                                <optgroup label="البنوك الإسلامية">
+                                    <option value="مصرف البلاد الإسلامي">مصرف البلاد الإسلامي</option>
+                                    <option value="مصرف إيلاف الإسلامي">مصرف إيلاف الإسلامي</option>
+                                    <option value="المصرف العراقي الإسلامي">المصرف العراقي الإسلامي</option>
+                                    <option value="المصرف الوطني الإسلامي">المصرف الوطني الإسلامي</option>
+                                    <option value="مصرف جيهان للاستثمار الإسلامي">مصرف جيهان للاستثمار الإسلامي</option>
+                                    <option value="مصرف الجنوب الإسلامي">مصرف الجنوب الإسلامي</option>
+                                    <option value="مصرف آسيا العراق الإسلامي">مصرف آسيا العراق الإسلامي</option>
+                                    <option value="مصرف القرطاس الإسلامي">مصرف القرطاس الإسلامي</option>
+                                    <option value="مصرف زين العراق الإسلامي">مصرف زين العراق الإسلامي</option>
+                                    <option value="مصرف الأنصار الإسلامي">مصرف الأنصار الإسلامي</option>
+                                    <option value="مصرف العطاء الإسلامي">مصرف العطاء الإسلامي</option>
+                                    <option value="المصرف الإسلامي الدولي">المصرف الإسلامي الدولي</option>
+                                    <option value="مصرف نور العراق الإسلامي">مصرف نور العراق الإسلامي</option>
+                                    <option value="مصرف القابض الإسلامي">مصرف القابض الإسلامي</option>
+                                    <option value="مصرف النهرين الإسلامي">مصرف النهرين الإسلامي</option>
+                                    <option value="مصرف الثقة الدولي الإسلامي">مصرف الثقة الدولي الإسلامي</option>
+                                    <option value="مصرف الراجح الإسلامي">مصرف الراجح الإسلامي</option>
+                                    <option value="مصرف العالم الإسلامي">مصرف العالم الإسلامي</option>
+                                    <option value="مصرف التعاون الإسلامي">مصرف التعاون الإسلامي</option>
+                                    <option value="مصرف التنمية الدولي الإسلامي">مصرف التنمية الدولي الإسلامي</option>
+                                </optgroup>
+                                <optgroup label="البنوك الأجنبية">
+                                    <option value="ستاندرد تشارترد">ستاندرد تشارترد</option>
+                                    <option value="سيتي بنك">سيتي بنك</option>
+                                    <option value="بنك بيروت والبلاد العربية">بنك بيروت والبلاد العربية</option>
+                                    <option value="بنك بيبلوس">بنك بيبلوس</option>
+                                    <option value="بنك عوده">بنك عوده</option>
+                                    <option value="فرنسبنك">فرنسبنك</option>
+                                    <option value="بنك ميد">بنك ميد</option>
+                                    <option value="البنك اللبناني الفرنسي">البنك اللبناني الفرنسي</option>
+                                    <option value="بنك انتركونتيننتال لبنان">بنك انتركونتيننتال لبنان</option>
+                                    <option value="زراعات بنك التركي">زراعات بنك التركي</option>
+                                    <option value="وقف بنك التركي">وقف بنك التركي</option>
+                                    <option value="ايش بنك التركي">ايش بنك التركي</option>
+                                    <option value="البنك الملي الإيراني">البنك الملي الإيراني</option>
+                                    <option value="بنك سپه الإيراني">بنك سپه الإيراني</option>
+                                    <option value="مصرف أبوظبي الإسلامي">مصرف أبوظبي الإسلامي</option>
+                                    <option value="البنك العربي">البنك العربي</option>
+                                </optgroup>
+                            </select>
+                            <p class="text-xs text-stone-500 mt-1">اختر البنك الذي تستلم راتبك من خلاله (اختياري).</p>
+                        </div>  <div id="spouse_children_section" class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6 hidden">
                         <div>
                             <label for="num_children" class="block text-sm font-medium text-stone-700 mb-1">عدد الأطفال (المستحقين للمخصصات):</label>
                             <input type="number" id="num_children" name="num_children" min="0" value="0" class="form-input mt-1 block w-full p-2 border rounded-md shadow-sm focus:outline-none focus:ring-teal-500 focus:border-teal-500">
